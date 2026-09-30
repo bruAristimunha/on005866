@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Flankers-NEAR",
-  "description": "This dataset contains EEG recordings from a flanker word/pseudoword lexical decision task collected at the NeuroCognition Laboratory in San Diego. Participants viewed four-letter real words and pseudowords flanked by identical, different, or no flanking words, while EEG was recorded to examine neural responses associated with lexical processing under flanker conditions. The dataset was collected under San Diego State University's IRB oversight.",
-  "methods_description": "Participants sat in a darkened, sound-attenuated room and viewed stimuli on a 24in LCD monitor at 60in viewing distance. They were presented with 90 four-letter real words and 90 pseudowords under three flanker conditions (no flanker, identical flankers, different flankers), totaling 270 trials. Each trial began with a purple fixation cross (1000ms), followed by a white fixation cross (500ms), then the stimulus (150ms), followed by a blank screen until participant response via a game controller.",
+  "description": "EEG dataset from a flanker paradigm with visually presented four-letter words and pseudowords. Targets appeared with no flankers, identical flankers, or different flankers, and participants judged each item as a real word or pseudoword using a game controller. Data were collected at the NeuroCognition Laboratory in San Diego across 270 trials per participant.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room and viewed a monitor while responding with a game controller. Stimuli were 90 real words and 90 pseudowords, each shown once in three flanker conditions (no flanker, identical, different), giving 270 trials. Each trial had a 1000 ms purple fixation cross, a 500 ms white fixation cross, a 150 ms stimulus, and then a blank screen until response.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,16 +22,18 @@
       "term": "flanker task"
     },
     {
-      "term": "lexical decision"
+      "term": "visual word recognition"
     },
     {
-      "term": "psycholinguistics"
+      "term": "pseudowords"
     },
     {
-      "term": "event-related potentials"
+      "term": "parafoveal processing"
     },
     {
-      "term": "reading"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -56,7 +58,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.8 GB (122 files)"
+    "3.57 GB (122 files)"
   ],
   "formats": [
     ".fdt",
